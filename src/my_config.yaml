@@ -1,0 +1,24 @@
+---
+body_model:
+    gender: neutral
+    bm_fname: ../support_data/dowloads/models/smplx/neutral/SMPLX_NEUTRAL.npz
+
+general:
+    verbosity: 0
+    expr_id:
+    dataset_id: V02_07
+    rnd_seed: 100
+    work_dir: ./training/training_experiments
+    dataset_basedir: ./training/data
+
+logging:
+    expr_msg:
+    num_bodies_to_display: 25
+    work_dir:
+    dataset_dir:
+    render_during_training: False
+    best_model_fname:
+
+train_params:
+    batch_size:
+    restore_optimizer: False

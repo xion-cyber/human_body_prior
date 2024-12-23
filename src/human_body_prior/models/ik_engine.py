@@ -140,8 +140,10 @@ def ik_fit(optimizer, source_kpts_model, static_vars, vp_model, extra_params={},
         opt_objs = {}
 
         res = source_kpts_model(free_vars)
-
-        opt_objs['data'] = data_loss(res['source_kpts'], static_vars['target_kpts'])
+        try:
+            opt_objs['data'] = data_loss(res['source_kpts'], static_vars['target_kpts'])
+        except Exception as e:
+            print(res['source_kpts'].shape, static_vars['target_kpts'].shape)
 
         opt_objs['betas'] = torch.pow(free_vars['betas'][nonan_mask], 2).sum()
         opt_objs['poZ_body'] = torch.pow(free_vars['poZ_body'][nonan_mask], 2).sum()
@@ -177,7 +179,7 @@ class IK_Engine(nn.Module):
                  stepwise_weights: List[Dict] = [{'data': 10., 'poZ_body': .01, 'betas': .5}],
                  display_rc: tuple = (2, 1),
                  verbosity: int = 1,
-                 num_betas: int = 16,
+                 num_betas: int = 10,
                  logger=None,
                  ):
         '''

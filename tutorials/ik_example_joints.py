@@ -54,9 +54,12 @@ class SourceKeyPoints(nn.Module):
 
 
 support_dir = '../support_data/dowloads'
+# Vposer 预训练模型路径
 vposer_expr_dir = osp.join(support_dir,'vposer_v2_05') #'TRAINED_MODEL_DIRECTORY'  in this directory the trained model along with the model code exist
-bm_fname =  osp.join(support_dir,'models/smplx/neutral/model.npz')#'PATH_TO_SMPLX_model.npz'  obtain from https://smpl-x.is.tue.mpg.de/downloads
-sample_amass_fname = osp.join(support_dir, 'amass_sample.npz')# a sample npz file from AMASS
+# SMPLX 人体模型路径
+bm_fname =  osp.join(support_dir,'/home/yeyiqi/Documents/models/SMPLX/models_smplx_v1_1/models/smplx/SMPLX_NEUTRAL.npz')#'PATH_TO_SMPLX_model.npz'  obtain from https://smpl-x.is.tue.mpg.de/downloads
+# AMASS 动作序列路径
+sample_amass_fname = osp.join(support_dir, '/home/yeyiqi/Documents/dataset/AMASS/ACCAD/s001/EricCamper04_stageii.npz')# a sample npz file from AMASS
 
 comp_device = torch.device('cuda')
 

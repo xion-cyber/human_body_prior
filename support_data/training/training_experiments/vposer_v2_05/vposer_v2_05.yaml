@@ -1,0 +1,57 @@
+body_model:
+  bm_fname: ../../../../support_data/dowloads/models/smplx/neutral/SMPLX_NEUTRAL.npz
+  gender: neutral
+data_parms:
+  amass_dir: ../../../../support_data/dowloads/amass
+  amass_splits:
+    test:
+    - BMLrub_test
+    train:
+    - BMLrub_train
+    vald:
+    - BMLrub_vald
+  num_timeseq_frames: 1
+  num_workers: 5
+general:
+  dataset_basedir: ../../../../support_data/training/data
+  dataset_id: V02_03
+  expr_id: vposer_v2_05
+  rnd_seed: 100
+  verbosity: 0
+  work_basedir: ../../../../support_data/training/training_experiments
+logging:
+  best_model_fname: null
+  dataset_dir: ../../../../support_data/training/data/V02_03
+  expr_msg: '[vposer_v2_05] batch_size = 128.'
+  num_bodies_to_display: 25
+  render_during_training: false
+  work_dir: ../../../../support_data/training/training_experiments/vposer_v2_05
+model_params:
+  latentD: 32
+  num_neurons: 512
+train_parms:
+  batch_size: 128
+  early_stopping:
+    min_delta: 0.0
+    mode: min
+    monitor: val_loss
+    patience: 10
+    verbose: true
+  gen_optimizer:
+    args:
+      lr: 0.001
+      weight_decay: 1.0e-05
+    type: Adam
+  keep_extra_loss_terms_until_epoch: 15
+  loss_weights:
+    loss_jtr_wt: 2
+    loss_kl_wt: 0.005
+    loss_matrot_wt: 2
+    loss_rec_wt: 4
+  lr_scheduler:
+    args:
+      patience: 5
+      verbose: true
+    type: ReduceLROnPlateau
+  num_epochs: 100
+  restore_optimizer: false

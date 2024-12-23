@@ -1,0 +1,59 @@
+Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+Using AMASS body parameters from support_data/dowloads/amass/smplx_neutral
+Preparing VPoser data for split vald
+Found 0 sequences from BMLrub_vald.
+Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+Using AMASS body parameters from support_data/dowloads/amass/smplx_neutral
+Preparing VPoser data for split vald
+Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+Using AMASS body parameters from support_data/dowloads/amass/smplx_neutral
+Preparing VPoser data for split vald
+Found 0 sequences from BMLrub_vald.
+Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+Using AMASS body parameters from support_data/dowloads/amass/smplx_neutral
+Preparing VPoser data for split vald
+Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+Using AMASS body parameters from support_data/dowloads/amass/smplx_neutral
+Preparing VPoser data for split vald
+Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+Using AMASS body parameters from support_data/dowloads/amass/smplx_neutral
+Preparing VPoser data for split vald
+Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+Using AMASS body parameters from support_data/dowloads/amass/smplx_neutral
+Preparing VPoser data for split vald
+Found 0 sequences from BMLrub_vald.
+Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+Using AMASS body parameters from support_data/dowloads/amass/smplx_neutral
+Preparing VPoser data for split vald
+Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+Using AMASS body parameters from support_data/dowloads/amass
+Preparing VPoser data for split vald
+Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+Using AMASS body parameters from support_data/dowloads/amass
+Preparing VPoser data for split vald
+Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+Using AMASS body parameters from ../../../../support_data/dowloads/amass
+Preparing VPoser data for split vald
+Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+Using AMASS body parameters from ../../../../support_data/dowloads/amass
+Preparing VPoser data for split vald
+Found 146 sequences from BMLrub_vald.
+Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+Using AMASS body parameters from ../../../../support_data/dowloads/amass
+Preparing VPoser data for split vald
+Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+Using AMASS body parameters from ../../../../support_data/dowloads/amass
+Preparing VPoser data for split vald
+Found 146 sequences from BMLrub_vald.
+Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+Using AMASS body parameters from ../../../../support_data/dowloads/amass
+Preparing VPoser data for split vald
+Found 140 sequences from BMLrub_vald.
+30297 datapoints dumped for split vald. ds_meta_pklpath: ../../../../support_data/training/data/V02_03/vald
+Preparing VPoser data for split train
+Found 834 sequences from BMLrub_train.
+206526 datapoints dumped for split train. ds_meta_pklpath: ../../../../support_data/training/data/V02_03/train
+Preparing VPoser data for split test
+Found 329 sequences from BMLrub_test.
+91999 datapoints dumped for split test. ds_meta_pklpath: ../../../../support_data/training/data/V02_03/test
+Dumped final pytorch dataset at ../../../../support_data/training/data/V02_03

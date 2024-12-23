@@ -1,7 +1,7 @@
 ---
 body_model:
   gender: neutral
-  bm_fname: ../../../../support_data/dowloads/models/smplx/neutral/model.npz
+  bm_fname: ../../../../support_data/dowloads/models/smplx/neutral/SMPLX_NEUTRAL.npz
 
 general:
   verbosity: 0
@@ -50,7 +50,7 @@ train_parms:
 
 data_parms:
   num_workers: 5 # Used for dataloaders
-  amass_dir: support_data/dowloads/amass/smplx_neutral
+  amass_dir: ../../../../support_data/dowloads/amass
   num_timeseq_frames: 1
   amass_splits:
     vald:
@@ -60,7 +60,7 @@ data_parms:
 #      - MPI_mosh
       - BMLrub_vald
     train:
-      - CMU
+#      - CMU
       - BMLrub_train
 #      - MPI_Limits
 #      - TotalCapture

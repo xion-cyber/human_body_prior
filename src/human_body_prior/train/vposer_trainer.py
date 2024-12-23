@@ -70,7 +70,7 @@ class VPoserTrainer(LightningModule):
         _support_data_dir = get_support_data_dir()
 
         vp_ps = load_config(**_config)
-
+        # 设置随机种子
         make_deterministic(vp_ps.general.rnd_seed)
 
         self.expr_id = vp_ps.general.expr_id
@@ -80,7 +80,7 @@ class VPoserTrainer(LightningModule):
         self.dataset_dir = vp_ps.logging.dataset_dir = osp.join(vp_ps.general.dataset_basedir, vp_ps.general.dataset_id)
 
         self._log_prefix = '[{}]'.format(self.expr_id)
-        self.text_logger = log2file(prefix=self._log_prefix)
+        self.text_logger = log2file(prefix=self._log_prefix, logpath=osp.join(self.work_dir, '{}.log'.format(self.expr_id)))
 
         self.seq_len = vp_ps.data_parms.num_timeseq_frames
 
@@ -316,7 +316,7 @@ def train_vposer_once(_config):
 
     trainer = pl.Trainer(gpus=1,
                          weights_summary='top',
-                         distributed_backend = 'ddp',
+                         # distributed_backend = 'ddp',
                          # replace_sampler_ddp=False,
                          # accumulate_grad_batches=4,
                          # profiler=False,

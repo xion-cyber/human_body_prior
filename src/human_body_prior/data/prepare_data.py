@@ -86,12 +86,13 @@ def prepare_vposer_datasets(vposer_dataset_dir, amass_splits, amass_dir, logger=
 
         npz_fnames = []
         for ds_name in ds_names:
-            mosh_stageII_fnames = glob.glob(osp.join(amass_dir, ds_name, '*/*_poses.npz'))
+            mosh_stageII_fnames = glob.glob(osp.join(amass_dir, ds_name, '*/*.npz'))
             npz_fnames.extend(mosh_stageII_fnames)
             logger('Found {} sequences from {}.'.format(len(mosh_stageII_fnames), ds_name))
 
             for npz_fname in npz_fnames:
                 cdata = np.load(npz_fname)
+                print(npz_fname)
                 N = len(cdata['poses'])
 
                 # skip first and last frames to avoid initial standard poses, e.g. T pose

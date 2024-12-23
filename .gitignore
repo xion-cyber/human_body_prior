@@ -8,6 +8,8 @@ support_data/dowloads/models/smplh/*
 
 support_data/dowloads/models/smplx/*
 
+support_data/dowloads/amass/*
+
 *.ipynb_checkpoints/
 
 *__pycache__/

@@ -1,0 +1,70 @@
+[vposer_v2_05] -- Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+[vposer_v2_05] -- Using AMASS body parameters from support_data/dowloads/amass/smplx_neutral
+[vposer_v2_05] -- Preparing VPoser data for split vald
+[vposer_v2_05] -- Found 0 sequences from BMLrub_vald.
+[vposer_v2_05] -- Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+[vposer_v2_05] -- Using AMASS body parameters from support_data/dowloads/amass/smplx_neutral
+[vposer_v2_05] -- Preparing VPoser data for split vald
+[vposer_v2_05] -- Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+[vposer_v2_05] -- Using AMASS body parameters from support_data/dowloads/amass/smplx_neutral
+[vposer_v2_05] -- Preparing VPoser data for split vald
+[vposer_v2_05] -- Found 0 sequences from BMLrub_vald.
+[vposer_v2_05] -- Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+[vposer_v2_05] -- Using AMASS body parameters from support_data/dowloads/amass/smplx_neutral
+[vposer_v2_05] -- Preparing VPoser data for split vald
+[vposer_v2_05] -- Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+[vposer_v2_05] -- Using AMASS body parameters from support_data/dowloads/amass/smplx_neutral
+[vposer_v2_05] -- Preparing VPoser data for split vald
+[vposer_v2_05] -- Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+[vposer_v2_05] -- Using AMASS body parameters from support_data/dowloads/amass/smplx_neutral
+[vposer_v2_05] -- Preparing VPoser data for split vald
+[vposer_v2_05] -- Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+[vposer_v2_05] -- Using AMASS body parameters from support_data/dowloads/amass/smplx_neutral
+[vposer_v2_05] -- Preparing VPoser data for split vald
+[vposer_v2_05] -- Found 0 sequences from BMLrub_vald.
+[vposer_v2_05] -- Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+[vposer_v2_05] -- Using AMASS body parameters from support_data/dowloads/amass/smplx_neutral
+[vposer_v2_05] -- Preparing VPoser data for split vald
+[vposer_v2_05] -- Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+[vposer_v2_05] -- Using AMASS body parameters from support_data/dowloads/amass
+[vposer_v2_05] -- Preparing VPoser data for split vald
+[vposer_v2_05] -- Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+[vposer_v2_05] -- Using AMASS body parameters from support_data/dowloads/amass
+[vposer_v2_05] -- Preparing VPoser data for split vald
+[vposer_v2_05] -- Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+[vposer_v2_05] -- Using AMASS body parameters from ../../../../support_data/dowloads/amass
+[vposer_v2_05] -- Preparing VPoser data for split vald
+[vposer_v2_05] -- Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+[vposer_v2_05] -- Using AMASS body parameters from ../../../../support_data/dowloads/amass
+[vposer_v2_05] -- Preparing VPoser data for split vald
+[vposer_v2_05] -- Found 146 sequences from BMLrub_vald.
+[vposer_v2_05] -- Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+[vposer_v2_05] -- Using AMASS body parameters from ../../../../support_data/dowloads/amass
+[vposer_v2_05] -- Preparing VPoser data for split vald
+[vposer_v2_05] -- Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+[vposer_v2_05] -- Using AMASS body parameters from ../../../../support_data/dowloads/amass
+[vposer_v2_05] -- Preparing VPoser data for split vald
+[vposer_v2_05] -- Found 146 sequences from BMLrub_vald.
+[vposer_v2_05] -- Creating pytorch dataset at ../../../../support_data/training/data/V02_03
+[vposer_v2_05] -- Using AMASS body parameters from ../../../../support_data/dowloads/amass
+[vposer_v2_05] -- Preparing VPoser data for split vald
+[vposer_v2_05] -- Found 140 sequences from BMLrub_vald.
+[vposer_v2_05] -- 30297 datapoints dumped for split vald. ds_meta_pklpath: ../../../../support_data/training/data/V02_03/vald
+[vposer_v2_05] -- Preparing VPoser data for split train
+[vposer_v2_05] -- Found 834 sequences from BMLrub_train.
+[vposer_v2_05] -- 206526 datapoints dumped for split train. ds_meta_pklpath: ../../../../support_data/training/data/V02_03/train
+[vposer_v2_05] -- Preparing VPoser data for split test
+[vposer_v2_05] -- Found 329 sequences from BMLrub_test.
+[vposer_v2_05] -- 91999 datapoints dumped for split test. ds_meta_pklpath: ../../../../support_data/training/data/V02_03/test
+[vposer_v2_05] -- Dumped final pytorch dataset at ../../../../support_data/training/data/V02_03
+[vposer_v2_05] -- Total Trainable Parameters Count in vp_model is 0.94 M.
+[vposer_v2_05] -- VPoser dataset already exists at ../../../../support_data/training/data/V02_03
+[vposer_v2_05] -- Total Trainable Parameters Count in vp_model is 0.94 M.
+[vposer_v2_05] -- Epoch 0: val_loss:0.51
+[vposer_v2_05] -- lr is [0.001]
+[vposer_v2_05] -- Created a git archive backup at ../../../../support_data/training/training_experiments/vposer_v2_05/code/vposer_2024_12_17_17_17_00.tar.gz
+[vposer_v2_05] -- VPoser dataset already exists at ../../../../support_data/training/data/V02_03
+[vposer_v2_05] -- Total Trainable Parameters Count in vp_model is 0.94 M.
+[vposer_v2_05] -- Epoch 0: val_loss:0.51
+[vposer_v2_05] -- lr is [0.001]
+[vposer_v2_05] -- Created a git archive backup at ../../../../support_data/training/training_experiments/vposer_v2_05/code/vposer_2024_12_17_17_17_14.tar.gz

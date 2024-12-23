@@ -296,6 +296,9 @@ def blend_shapes(betas, shape_disps):
     # then sum them.
 
     #print(betas.device,shape_disps.device)
+    # print(f"betas shape: {betas.shape}")  # 检查 betas 的维度
+    # print(f"shape_disps shape: {shape_disps.shape}")  # 检查 shape_disps 的维度
+
     blend_shape = torch.einsum('bl,mkl->bmk', [betas, shape_disps])
     return blend_shape
 

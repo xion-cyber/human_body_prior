@@ -14,7 +14,7 @@ from human_body_prior.tools.configurations import load_config
 from human_body_prior.train.vposer_trainer import train_vposer_once
 
 def main():
-    expr_id = 'V02_05'
+    expr_id = 'vposer_v2_05'
 
     default_ps_fname = glob.glob(osp.join(osp.dirname(__file__), '*.yaml'))[0]
 
